@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D2B48C; /* Tan */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    background: url('path/to/hero-image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent; /* Transparent background */
+    z-index: 1000;
+}
+
+.logo-brand a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* Evenly spaced links */
+    flex-grow: 1;
+    max-width: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+.navLink {
+    display: flex;
+    align-items: center;
+}
+
+.navLink a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.search-icon {
+    font-size: 20px;
+    color: #fff;
+}
+
+.message {
+    text-align: center;
+    color: #fff;
+    margin-top: 100px; /* Adjusted for fixed navbar height */
+}
+
+.main-title h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #8B4513; /* SaddleBrown */
+    padding: 10px 0;
+}
+
+.sub-title p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn-cta {
+    background-color: #8B4513; /* SaddleBrown */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.welcome-section {
+    background-color: #8B4513; /* SaddleBrown */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.welcome-message p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.signature {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.consultants-section {
+    background-color: #8B4513; /* SaddleBrown */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.consultants-list {
+    list-style: none;
+    padding: 0;
+}
+
+.consultants-list li {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.consultants-list strong {
+    color: #fff;
+}
+
+.consultants-list em {
+    color: #D2B48C; /* Tan */
+}
+
+.core-values-section {
+    background-color: #8B4513; /* SaddleBrown */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.core-values-section h2 {
+    color: #fff;
+}
+
+.core-values-section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.core-values-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.core-values-section li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
